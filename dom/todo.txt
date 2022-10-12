@@ -1,0 +1,13 @@
+[x] fix xml formatting when deserializing so that the tabs are equal
+    [x] solution: take the entire line of text from the file, ignoring the column.  Problem: doesn't work if there are multiple elements on one line
+    [x] consider outputting to a file instead of command line
+[x] make sure do not collect duplicates
+[x] clean up and document code
+[-] remove column values
+[x] make filter an object so it is more understandable
+[x] write the tests in runner.rb
+[x] write a README for dom
+[-] write a README for message queue
+[x] change names of output files to match the reference files
+[] write more robusts tests utilizing the other given file
+    [] would potentially need to add parsing for comments
